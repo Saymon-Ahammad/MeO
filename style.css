@@ -1,0 +1,229 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #41c0d1;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+}
+.logo img {
+    max-width: 100px;
+}
+.logo p {
+    padding-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: rgb(169, 107, 26);
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 300px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #7ca2db;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #9faa28;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.nav-links a i {
+    margin-right: 5px;
+}
+
+
+/* Section styles */
+section {
+    margin: 30px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #083341;
+}
+
+/* Product grid */
+.product-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    position: relative;
+    flex: 0 1 calc(13% - 20px); 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%; 
+    height: 300px; 
+    border-radius: 8px;
+}
+
+.product-details {
+    margin-top: 10px;
+    color: #555;
+}
+
+.product-details p:last-child {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.product-item button {
+    width: calc(100% - 40px); 
+    margin-top: 10px; 
+    padding: 8px 20px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.product-item button:hover {
+    background-color: #e85a4f;
+}
+
+.show-more {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #27688a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.show-more i {
+    margin-right: 5px; 
+}
+
+.show-more:hover {
+    background-color: #0b4724;
+}
+
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.container {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mailing-list form {
+    display: flex;
+}
+
+.mailing-list input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.mailing-list button {
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.social-links .icons a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px; 
+    font-size: 24px; 
+}
+
+.social-links .icons a:last-child {
+    margin-right: 0;
+}
+
+.social-links h3 {
+    text-align: center;
+}
+
+.footer-info {
+    margin-top: 10px;
+
+}
+
+
